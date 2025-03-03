@@ -49,6 +49,9 @@ const Recipes = () => {
         accessorKey: "recipeContent",
         header: "Content",
         size: 1240,
+        Cell: ({ cell }) => (
+          <div dangerouslySetInnerHTML={{ __html: cell.getValue() }} />
+        ),
       },
       {
         accessorKey: "recipeCategory",
