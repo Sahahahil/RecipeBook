@@ -1,8 +1,8 @@
 .home {
-    margin-top: 6rem;
+    margin-top: 2rem;
     background-image: url(../../assets/food.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@ nav .MuiPaper-root    {
     max-width: 28rem;
     padding: 3rem;
     border-radius: 4px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(6, 87, 10);
     color: rgb(99, 247, 7);
     box-shadow: 10px 2px 20px rgba(7, 102, 4, 0.418);
     border-top: 1px solid rgb(121, 255, 133);

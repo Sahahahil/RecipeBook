@@ -5,7 +5,7 @@
   font-weight: 400;
   color-scheme: light dark;
   color: #213547;
-  background-color: #ffffff;
+  background-color: #ffffffc5;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -30,6 +30,7 @@ body {
 
 main {
   min-height: 100%;
+  max-height: 85vh;
   padding: 3rem;
 }
 
@@ -71,19 +72,84 @@ button:focus-visible {
 }
 
 /* Navbar class */
-.flex {
+/* .flex {
   display: flex;
   justify-content: space-between;
   /* border: red 2px solid; */
-  align-items: center;
+  /* align-items: center; */
+  /* background-color: #098528; */
+  /* padding: 50px ; 
+  flex-direction: column;
+} */
+
+/* 
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
   background-color: #098528;
-  /* padding: 50px ; */
+  padding: 20px;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+
+/* .flex a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 100%;
+} */
+
+
+main {
+  margin-left: 220px; /* Adds space so content isn’t hidden behind nav */
+  padding: 3rem;
 }
 
-@media (max-width: 360px) {
+
+/* @media (max-width: 360px) {
   .flex {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+} */
+
+
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #098528;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: #0B6623;
+}
+
+.sidebar .home-link {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
 }
