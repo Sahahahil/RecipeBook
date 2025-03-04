@@ -1,36 +1,53 @@
 .home {
-  margin-top: 6rem;
-  background-image: url(../../assets/food.webp);
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
+    margin-top: 6rem;
+    background-image: url(../../assets/food.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
 }
-
+nav .MuiPaper-root    {
+    background-color: green;
+}
 .home__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
 .home__text {
-  max-width: 28rem;
-  padding: 3rem;
-  border-radius: 4px;
-  background-color: white;
-  color: black;
+    max-width: 28rem;
+    padding: 3rem;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(99, 247, 7);
+    box-shadow: 10px 2px 20px rgba(7, 102, 4, 0.418);
+    border-top: 1px solid rgb(121, 255, 133);
+    border-left: 1px solid rgb(121, 255, 133);
 }
 
 .home__description {
-  margin-top: 0.5rem;
-  text-align: center;
+    margin-top: 0.5rem;
+    text-align: center;
 }
 
 .home__button {
-  color: black;
+    color: rgb(5, 41, 2);
+    background-color: rgba(255, 228, 196, 0.548);
+    font-size: 20px;
+    padding: 10px;
+    border: 1px rgb(238, 255, 0) solid;
+    margin-top: 50px;
+}
+
+.home__button:hover {
+    background-color: rgb(212, 212, 4);
+    /* padding: 15px; */
+    /* font-size: 23px; */
+    color: rgb(5, 92, 51);
 }

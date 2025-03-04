@@ -9,9 +9,9 @@ const Home = () => {
         <div styleName="home__text">
           <h1>Hello there!</h1>
           <p styleName="home__description">
-            We're here to help you cook delicious meals with less stress and
-            more joy. We offer recipes and cooking advice for home cooks, by
-            home cooks.
+            <h2>
+              We are dedicated to helping you prepare delicious meals with ease and enjoyment. Our platform provides carefully curated recipes and expert cooking guidance, designed by home cooks for home cooks.
+              </h2>
           </p>
         </div>
         <Link to="/recipes">
