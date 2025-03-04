@@ -2,9 +2,7 @@
 
 ## Description
 
-Cooking Recipe Portal is a web application created using React.js, FastAPI, and MySQL to store and manage recipes.
-
-> Live deployment hosted on a DigitalOcean droplet, configured with an NGINX reverse proxy, SSL certificate via Let's Encrypt, and served over HTTPS: [Cooking Recipe Portal](https://cooking-recipes-portal.netlify.app/)  
+Cooking Recipe Portal is a web application created using React.js, FastAPI, and MySQL to store and manage recipes. 
 > Alternatively, clone the repo, navigate to the `app` directory, and run:  
 > `npm run dev`  
 > Or, navigate to the `server` directory, and run:  
